@@ -48,8 +48,8 @@ function openInNewTab(url) {
 }
 
 function showPokemon(nameid){
-    pokemon='/api/v1/pokemon/'+((page-1)*10+nameid);
-    openInNewTab('pokemon.html')
+    localStorage.setItem("pokemon",'/api/v1/pokemon/'+((page-1)*10+nameid)+'/');
+    openInNewTab('pokemon.html');
 }
 
 function putImg(img){document.getElementById('container').children[1].children[0].innerHTML='<img src="'+img+'"/>';}
