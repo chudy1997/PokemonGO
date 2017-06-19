@@ -1,0 +1,108 @@
+#header{
+    clear: both;
+    font-size: 18px;
+    height: 60px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 2px solid #00c000;
+    text-align: center;
+}
+
+#image{
+    border-right: 2px solid #00c000;
+    float:left;
+    line-height: 60px;
+    width: 200px;
+    font-size: 30px;
+    color: green;
+    text-justify: center;
+}
+
+#name{
+    border-right: 2px solid #00c000;
+    float:left;
+    line-height: 60px;
+    width: 398px;
+    font-size: 30px;
+    color: green;
+    text-justify: center;
+}
+
+#hp{
+    float:left;
+    line-height: 60px;
+    width: 398px;
+    font-size: 30px;
+    color: green;
+    text-justify: center;
+}
+
+.pokemon{
+    clear: both;
+    font-size: 18px;
+    height: 120px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 2px solid #00c000;
+    text-align: center;
+}
+
+img { transition: all 0.3s ease-in-out 0s; }
+img:hover{
+    cursor: default;
+    transform: rotate(360deg);
+    transition: all 1.0s ease-in-out 0s;
+}
+
+.image{
+    border-right: 2px solid #00c000;
+    float:left;
+    height: 120px;
+    width: 200px;
+    text-justify: center;
+}
+
+.name{
+    border-right: 2px solid #00c000;
+    float:left;
+    line-height: 120px;
+    width: 398px;
+    font-size: 30px;
+    color: green;
+    text-justify: center;
+}
+.name:hover{
+    background-color: yellow;
+    cursor: default;
+}
+.hp{
+    float:left;
+    line-height: 120px;
+    width: 398px;
+    font-size: 30px;
+    color: green;
+    text-justify: center;
+}
+
+#pagination{
+    clear:both;
+    line-height: 40px;
+    width: 1000px;
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    color: blue;
+    text-align: center;
+    letter-spacing: 3px;
+}
+.reference{
+    display:inline-block;
+    position:relative;
+    width: 20;
+}
+.reference:hover{
+    background-color: red;
+    cursor: pointer;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE HTML> 
+ 
+<html lang="pl">
+    <head>
+        <meta charset="utf-8"/>
+        <title>PokemonGO</title>
+        <meta name="description" content="Cheatsheet for Pokemon Go players where players can 
+            read stats, types, evolutions, etc. of each Pokemon available in the game."/>
+        <meta name="kewords" content="Pokemon,PokemonGO,cheatsheet,pokemons"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge", chrome="1"/>
+        <meta name="author" content="Karol Bartyzel"/>
+        <link rel="stylesheet" href="../CSS/style.css" type="text/css"/>
+        <link rel="stylesheet" href="../CSS/table.css" type="text/css"/>
+        <script src="../JS/pokeapi.js"></script>
+    </head>
+
+    <body> 
+         <div id="container">
+            <div id="top">
+                <div id="logo">
+                    <img src="../Images/logo.png"/>
+                </div>
+                <div id="text">
+                    PokemonGO characters
+                    <br/>
+                    Catch them all!
+                </div>
+            </div>
+            <div id="header"><div id="image">IMAGE</div><div id="name">NAME</div><div id="hp">HP</div></div>
+            <div id="pokemons">
+                <div class="pokemon"><div class="image"></div><div class="name" onclick='showPokemon(1)'></div><div class="hp"></div></div>
+                <div class="pokemon"><div class="image"></div><div class="name" onclick='showPokemon(2)'></div><div class="hp"></div></div>
+                <div class="pokemon"><div class="image"></div><div class="name" onclick='showPokemon(3)'></div><div class="hp"></div></div>
+                <div class="pokemon"><div class="image"></div><div class="name" onclick='showPokemon(4)'></div><div class="hp"></div></div>
+                <div class="pokemon"><div class="image"></div><div class="name" onclick='showPokemon(5)'></div><div class="hp"></div></div>
+                <div class="pokemon"><div class="image"></div><div class="name" onclick='showPokemon(6)'></div><div class="hp"></div></div>
+                <div class="pokemon"><div class="image"></div><div class="name" onclick='showPokemon(7)'></div><div class="hp"></div></div>
+                <div class="pokemon"><div class="image"></div><div class="name" onclick='showPokemon(8)'></div><div class="hp"></div></div>
+                <div class="pokemon"><div class="image"></div><div class="name" onclick='showPokemon(9)'></div><div class="hp"></div></div>
+                <div class="pokemon"><div class="image"></div><div class="name" onclick='showPokemon(10)'></div><div class="hp"></div></div>
+            </div>
+            <div id="pagination">
+                <div class="reference" onclick='render(1)'>1</div>
+                <div class="reference" onclick='render(2)'>2</div>
+                <div class="reference" onclick='render(3)'>3</div>
+                <div class="reference" onclick='render(4)'>4</div>
+                <div class="reference" onclick='render(5)'>5</div>
+                <div class="reference" onclick='render(6)'>6</div>
+                <div class="reference" onclick='render(7)'>7</div>
+                <div class="reference" onclick='render(8)'>8</div>
+                <div class="reference" onclick='render(9)'>9</div>
+                <div class="reference" onclick='render(10)'>10</div>
+            </div>
+            <div id="footer">
+                    Get know everything you need about PokemonGO characters and start your game shortly.<br/>&copy; 2017. All rights reserved
+            </div>
+         </div>
+        <script>
+            fillPokemons();
+        </script>
+    </body>
+</html>

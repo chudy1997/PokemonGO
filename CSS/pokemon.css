@@ -1,0 +1,69 @@
+#pokemon{
+    font-size: 18px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+#image{
+    border-right: 2px solid #00c000;
+    float:left;
+    height: 163px;
+    width: 198px;
+    text-justify: center;
+}
+#name{
+    border-bottom: 2px solid #00c000 ;
+    float:left;
+    line-height: 80px;
+    width: 800px;
+    font-size: 40px;
+    color: green;
+    text-justify: center;
+}
+#hp{
+    border-bottom: 2px solid #00c000 ;
+    float:left;
+    line-height: 80px;
+    width: 800px;
+    font-size: 40px;
+    color: green;
+    text-justify: center;
+}
+#evolution{
+    border-right: 2px solid #00c000;
+    float:left;
+    height: 244px;
+    width: 198px;
+    text-justify: center;
+}
+#refe:hover{
+    background-color: yellow;
+    cursor: default;
+}
+#speed{
+    border-bottom: 2px solid #00c000 ;
+    float:left;
+    line-height: 80px;
+    width: 800px;
+    font-size: 40px;
+    color: green;
+    text-justify: center;
+}
+#attack{
+    border-bottom: 2px solid #00c000 ;
+    float:left;
+    line-height: 80px;
+    width: 800px;
+    font-size: 40px;
+    color: green;
+    text-justify: center;
+}
+#defence{
+    float:left;
+    line-height: 80px;
+    width: 800px;
+    font-size: 40px;
+    color: green;
+    text-justify: center;
+}

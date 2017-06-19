@@ -1,0 +1,45 @@
+<!DOCTYPE HTML> 
+ 
+<html lang="pl">
+    <head>
+        <meta charset="utf-8"/>
+        <title>PokemonGO</title>
+        <meta name="description" content="Cheatsheet for Pokemon Go players where players can 
+            read stats, types, evolutions, etc. of each Pokemon available in the game."/>
+        <meta name="kewords" content="Pokemon,PokemonGO,cheatsheet,pokemons"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge", chrome="1"/>
+        <meta name="author" content="Karol Bartyzel"/>
+        <link rel="stylesheet" href="../CSS/style.css" type="text/css"/>
+        <link rel="stylesheet" href="../CSS/pokemon.css" type="text/css"/>
+        <script src="../JS/pokeapi.js"></script>
+    </head>
+
+    <body>
+        <div id="container">
+            <div id="top">
+                <div id="logo">
+                    <img src="../Images/logo.png"/>
+                </div>
+                <div id="text">
+                    PokemonGO characters
+                    <br/>
+                    Catch them all!
+                </div>
+            </div>
+            <div id="pokemon">
+                <div id="image"></div>
+                <div id="name"></div>
+                <div id="hp"></div>
+                <div id="evolution"></div>
+                <div id="speed"></div>
+                <div id="attack"></div>
+                <div id="defence"></div>
+            </div>
+            <div id="footer">
+                    Get know everything you need about PokemonGO characters and start your game shortly.<br/>&copy; 2017. All rights reserved
+            </div>
+        </div>
+        <script>
+            fillPokemon('/api/v1/pokemon/1/');
+        </script>
+    </body>
